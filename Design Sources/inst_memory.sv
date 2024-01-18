@@ -1,7 +1,15 @@
 `timescale 1ns / 1ps
 
 module inst_memory #(parameter s=32)(input bit [s-1:0] pcpresent, output bit [s-1:0] instruction);
+    
     bit [s-1:0] memory [s-1:0];
+    
+    always@(posedge reset)
+    begin 
+    if(reset == 1)
+    instruction = memory[0];
+    end 
+    
     initial 
     begin
     memory[0] = 32'h002081B3; // add $1, $2, $3
