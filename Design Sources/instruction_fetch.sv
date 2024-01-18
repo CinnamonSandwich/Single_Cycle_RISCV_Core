@@ -5,6 +5,6 @@ module instruction_fetch #(parameter s=32) (input bit reset,clk, input bit[s-1:0
 bit[s-1:0] pcpresent;
 
 prog_counter counter(clk,reset,pcnew,pcpresent);
-inst_memory mem(pcpresent,instruction); 
+  inst_memory mem(pcpresent,reset,instruction); 
 
 endmodule
