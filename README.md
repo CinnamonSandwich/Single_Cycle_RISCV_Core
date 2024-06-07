@@ -15,7 +15,8 @@ The core has 5 stages,
 The Datapath is as follows,
 
 
-<img width="390" alt="image" src="https://github.com/CinnamonSandwich/Single_Cycle_RISCV_Core/assets/92498341/5a70253c-889f-494c-bca2-f2d3b4805049">
+<img width="385" alt="image" src="https://github.com/CinnamonSandwich/Single_Cycle_RISCV_Core/assets/92498341/a1a2957d-806d-4086-8df2-cba0459f3c9f">
+
 
 
 
