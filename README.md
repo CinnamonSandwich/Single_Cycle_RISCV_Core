@@ -20,4 +20,5 @@ The Datapath is as follows,
 
 
 
+
 This project contains both design and test bench files for all stages individually and is implemented using System Verilog.
